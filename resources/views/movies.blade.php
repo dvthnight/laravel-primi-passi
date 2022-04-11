@@ -107,10 +107,10 @@
     <nav>
         <ul>
             <li>
-                <a href="{{url("/home")}}">Home</a>
+                <a href="{{route("home")}}">Home</a>
             </li>
             <li>
-                <a href="{{url("/movies")}}">Movies</a>    
+                <a href="{{route("movies")}}">Movies</a>    
             </li>
         </ul>
     </nav>
